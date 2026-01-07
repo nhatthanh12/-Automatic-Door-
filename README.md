@@ -1,6 +1,5 @@
-**Hệ Thống Nhận Diện Khuôn Mặt Điều Khiển Cửa (Raspberry Pi & ESP)
-Hệ thống sử dụng thuật toán LBPH (Local Binary Patterns Histograms) để nhận diện khuôn mặt và điều khiển đóng/mở cửa thông qua giao tiếp GPIO giữa Raspberry Pi và ESP.
-**
+**Hệ Thống Nhận Diện Khuôn Mặt Điều Khiển Cửa (Raspberry Pi & ESP) tích hợp AI, IoT 
+
 📌 Các tính năng chính
 Thu thập dữ liệu: Tự động chụp và lưu trữ ảnh khuôn mặt từ Camera.
 
