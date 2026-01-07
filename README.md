@@ -1,4 +1,4 @@
-**Hệ Thống Nhận Diện Khuôn Mặt Điều Khiển Cửa (Raspberry Pi & ESP) tích hợp AI, IoT 
+**Hệ Thống Nhận Diện Khuôn Mặt Điều Khiển Cửa (Raspberry Pi & ESP) tích hợp AI, IoT (  NhatThanh B22DT300)
 
 📌 Các tính năng chính
 Thu thập dữ liệu: Tự động chụp và lưu trữ ảnh khuôn mặt từ Camera.
