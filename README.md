@@ -31,7 +31,7 @@ Bash
 
 pip install opencv-python opencv-contrib-python numpy RPi.GPIO
 🔌 Cấu hình chân GPIO (Raspberry Pi)
-Hệ thống sử dụng sơ đồ chân BCM: | Chân (Pin) | Vai trò | Chức năng | |:---:|:---:|:---| | GPIO 17 | INPUT | Nhận tín hiệu từ ESP (phát hiện người đến gần). | | GPIO 27 | OUTPUT | Gửi tín hiệu phản hồi cho ESP (mở cửa khi đúng người). |
+Hệ thống sử dụng sơ đồ chân BCM: GPIO 17   Nhận tín hiệu từ ESP (phát hiện người đến gần). GPIO 27 | Gửi tín hiệu phản hồi cho ESP (mở cửa khi đúng người).
 
 🚀 Hướng dẫn vận hành
 Bước 1: Thu thập dữ liệu
@@ -58,4 +58,4 @@ Bash
 python face_recognition.py
 Mở cửa: Khi nhận diện đúng (độ tin cậy < 40) và có tín hiệu từ chân 17, chân 27 sẽ lên mức HIGH.
 
-Đóng cửa: Sau 10 giây kể từ khi mở, chân 27 sẽ tự động về mức LOW.
+Đóng cửa: Sau 5 giây kể từ khi mở, chân 27 sẽ tự động về mức LOW.
